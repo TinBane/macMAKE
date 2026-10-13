@@ -1,5 +1,25 @@
 **This project is developed with the assistance of an LLM**
 
+<p align="center"><strong>Support development</strong></p>
+<p align="center">
+  <a href="https://ko-fi.com/macsurf" target="_blank"><img src="https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Support on Ko-fi" height="40"></a>
+  &nbsp;
+  <a href="https://www.patreon.com/cw/MacSurf" target="_blank"><img src="https://img.shields.io/badge/Patreon-Support-FF424D?style=for-the-badge&logo=patreon&logoColor=white" alt="Support on Patreon" height="40"></a>
+  &nbsp;
+  <a href="https://github.com/sponsors/mplsllc" target="_blank"><img src="https://img.shields.io/badge/GitHub-Sponsor-DB61A2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" height="40"></a>
+</p>
+
+<p align="center"><strong>Follow along</strong></p>
+<p align="center">
+  <a href="https://discord.gg/mrwZK8zHr2" target="_blank"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join our Discord" height="40"></a>
+  &nbsp;
+  <a href="https://bsky.app/profile/macsurfos9.bsky.social" target="_blank"><img src="https://img.shields.io/badge/Bluesky-Follow-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Follow on Bluesky" height="40"></a>
+</p>
+
+<p align="center"><strong>Thanks to our supporters:</strong><br>Ko-Fi: <strong>Chris Marks, Rogue, Turuun, kilgeist</strong><br>Patreon: <strong>Mack Chamberlain, Lucas, Joseph Mulvaney, Shlooom</strong></p>
+
+---
+
 # macMAKE
 
 <p align="center">
