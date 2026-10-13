@@ -1,5 +1,3 @@
-**This project is developed with the assistance of an LLM**
-
 <p align="center"><strong>Support development</strong></p>
 <p align="center">
   <a href="https://ko-fi.com/macsurf" target="_blank"><img src="https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Support on Ko-fi" height="40"></a>
@@ -19,6 +17,8 @@
 <p align="center"><strong>Thanks to our supporters:</strong><br>Ko-Fi: <strong>Chris Marks, Rogue, Turuun, kilgeist</strong><br>Patreon: <strong>Mack Chamberlain, Lucas, Joseph Mulvaney, Shlooom</strong></p>
 
 ---
+
+**This project is developed with the assistance of an LLM**
 
 # macMAKE
 
