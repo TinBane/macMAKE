@@ -10,7 +10,7 @@ The one-command installer installs macMAKE and its bundled Linux toolchain. It d
 - macMAKE v0.1.0 and its bundled compiler/toolchain.
 - Authorized CodeWarrior MSL archives and Apple Universal Interfaces inputs for this example. They are not included with macMAKE.
 
-The v0.1 release target is Classic Mac OS 9 PowerPC CFM/PEF, using a C-focused workflow. Broad CodeWarrior C++ compatibility, 68K, and Mac OS X targets are outside its supported scope.
+The v0.1 release target is Classic Macintosh PowerPC CFM/PEF, with Mac OS 9 as its development baseline and a C-focused workflow. Earlier PowerPC versions of System 7 and Mac OS 8 have not yet been verified. Native 68K application generation and Mac OS X targets are unsupported. Historical Mac OS 9.2.2 MacSurf runtime results come from a macMAKE development build, not the exact public v0.1.0 binary. See the [version-specific compatibility tracker](https://macmake.dev/compatibility/).
 
 ## Discover the installed CLI
 

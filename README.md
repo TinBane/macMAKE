@@ -6,7 +6,7 @@
   <img src="img/logo.png" alt="macMAKE">
 </p>
 
-**macMAKE is a modern build environment for developing software for Classic Mac OS from Linux.**
+**macMAKE v0.1.0 is a Linux-native toolchain for building Classic PowerPC Macintosh applications.** Its supported release path targets Mac OS 9 CFM/PEF applications, primarily written in C.
 
 It grew out of a simple problem: compiling Classic Mac software with a modern compiler is possible, but large historical Macintosh applications were built around much more than a compiler.
 
@@ -40,7 +40,7 @@ macMAKE treats those differences as toolchain compatibility problems rather than
 
 ## What macMAKE does
 
-macMAKE is being developed as an end-to-end Classic PowerPC build environment.
+macMAKE is being developed toward an end-to-end Classic PowerPC build environment. The v0.1.0 product is a narrower, measured release: Linux x86-64 host to Classic Mac OS 9 PowerPC CFM/PEF applications, primarily C.
 
 Current work includes support for areas such as:
 
@@ -76,7 +76,9 @@ In other words:
 
 ## Current status
 
-macMAKE v0.1.0 is the initial public Linux x86-64 release. It supports a C-focused workflow for building Classic Mac OS 9 PowerPC CFM/PEF applications. It is not a complete CodeWarrior replacement; broad C++ parity, 68K targets, and Mac OS X targets are outside this release.
+macMAKE v0.1.0 is the initial public Linux x86-64 release. It supports a C-focused workflow for building Classic Mac OS 9 PowerPC CFM/PEF applications. Earlier PowerPC versions of System 7 and Mac OS 8 have not yet been verified. Native 68K application generation and Mac OS X targets are unsupported in v0.1. The project has historical Mac OS 9.2.2 MacSurf runtime evidence from a development build; the exact public v0.1.0 binary has not yet reproduced that runtime result. This is not a complete CodeWarrior replacement; broad C++ parity is outside this release.
+
+See the [OS-by-OS compatibility tracker](https://macmake.dev/compatibility/) for the evidence level and release identity behind each result.
 
 Start at [macmake.dev](https://macmake.dev), follow the [installation guide](https://macmake.dev/install.html), or read [Getting Started](https://macmake.dev/getting-started.html). The packaged first-app example requires authorized Apple Universal Interfaces and Metrowerks MSL material supplied by the user; these proprietary SDK files are not included.
 
@@ -131,6 +133,8 @@ Use `macmake help` and `macmake help build` in the installed version for its com
 ## Project links
 
 - Website: [macmake.dev](https://macmake.dev)
+- Compatibility: [Classic Macintosh OS compatibility tracker](https://macmake.dev/compatibility/)
+- Repository summary: [compatibility scope and evidence boundary](docs/compatibility.md)
 - Install: [Linux installation instructions](https://macmake.dev/install.html)
 - Getting started: [first application guide](https://macmake.dev/getting-started.html)
 - CLI reference: [commands, project format, and JSON schemas](https://macmake.dev/docs/cli-reference.html)
