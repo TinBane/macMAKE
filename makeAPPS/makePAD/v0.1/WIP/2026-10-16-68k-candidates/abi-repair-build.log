@@ -1,0 +1,13 @@
+TIMING project/target validation              0.003s
+  compiled <makePAD-project>/src/main.c -> <makePAD-project>/build/targets/classic-68k-segmented-app-c-v1/src/main.o
+  compiled <makePAD-project>/src/application.c -> <makePAD-project>/build/targets/classic-68k-segmented-app-c-v1/src/application.o
+  compiled <makePAD-project>/src/editor.c -> <makePAD-project>/build/targets/classic-68k-segmented-app-c-v1/src/editor.o
+  compiled <makePAD-project>/src/documents.c -> <makePAD-project>/build/targets/classic-68k-segmented-app-c-v1/src/documents.o
+  compiled <makePAD-project>/src/menus.c -> <makePAD-project>/build/targets/classic-68k-segmented-app-c-v1/src/menus.o
+  compiled <makePAD-project>/src/dialogs.c -> <makePAD-project>/build/targets/classic-68k-segmented-app-c-v1/src/dialogs.o
+  application globals: 168 writable bytes are embedded in the PC-relative CODE 1 image
+  linked 6 application object(s) plus macMAKE startup, ABI veneers, and byte-runtime objects with GNU Binutils; no undefined symbols
+  generated CODE 0 (A5/jump table) and CODE 1 (17220 bytes)
+  resource fork: <makePAD-project>/build/targets/76aceeedba24becbdf28422cb356418f52be74322b463d43b879a8aa460fcc93/makePAD.rsrc
+  Finder info: <makePAD-project>/build/targets/76aceeedba24becbdf28422cb356418f52be74322b463d43b879a8aa460fcc93/makePAD.finderinfo
+  MacBinary II: <makePAD-project>/build/targets/76aceeedba24becbdf28422cb356418f52be74322b463d43b879a8aa460fcc93/makePAD.bin
