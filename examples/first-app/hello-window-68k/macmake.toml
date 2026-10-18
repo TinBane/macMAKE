@@ -1,0 +1,25 @@
+[project]
+name = "HelloWindow68K"
+default_target = "Classic 68K Mac OS 8.1"
+
+[[target]]
+name = "Classic 68K Mac OS 8.1"
+kind = "application"
+platform = "classic-mac-os"
+architecture = "m68k"
+api = "classic"
+runtime = "classic-segmented"
+runtime_profile = "macmake-classic-m68k-c-v1"
+executable = "code-resources"
+language = "c"
+compiler_target = "classic-68k-segmented-app-c-v1"
+backend = "macmake-classic"
+sources = ["src/main.c"]
+
+[target.compiler]
+standard = "c89"
+
+[target.application]
+creator = "M68K"
+file_type = "APPL"
+output_name = "HelloWindow68K"

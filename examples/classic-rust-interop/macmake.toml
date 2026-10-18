@@ -1,0 +1,89 @@
+[project]
+name = "RustInterop"
+default_target = "Classic PPC Rust Interop"
+
+[[target]]
+name = "Classic PPC Rust Interop"
+kind = "application"
+platform = "classic-mac-os"
+architecture = "powerpc"
+api = "carbon-lib"
+runtime = "cfm"
+runtime_profile = "codewarrior-msl-compatible"
+executable = "pef"
+language = "c"
+backend = "macmake-classic"
+compiler_target = "classic-ppc-xcoff-c-v1"
+sources = ["src/main.c"]
+
+[target.compiler]
+standard = "c89"
+
+[target.application]
+creator = "HmRS"
+file_type = "APPL"
+output_name = "RustInterop"
+
+[target.application.memory]
+preferred_heap_bytes = 4194304
+minimum_heap_bytes = 2097152
+application_stack_bytes = 32768
+size_flags = 22720
+
+[target.cfm_fragment]
+output_name = "RustInterop"
+fragment_name = "RustInterop"
+main = "__start"
+creator = "HmRS"
+file_type = "APPL"
+old_definition_version = 0
+old_import_version = 0
+current_version = 0
+share_data = false
+exports = "pragma"
+
+[[target.libraries]]
+name = "RustValue"
+kind = "object"
+path = "build/rust/macmake_rust_value.o"
+
+[[target.libraries]]
+name = "MSL_C_Carbon"
+kind = "archive"
+path = "sdk/MSL_C_Carbon.Lib"
+
+[[target.libraries]]
+name = "MSL_Runtime_PPC_D"
+kind = "archive"
+path = "sdk/MSL_Runtime_PPC_D.Lib"
+
+[[target.libraries]]
+name = "MSL_Extras_Carbon"
+kind = "archive"
+path = "sdk/MSL_Extras_Carbon.Lib"
+
+[[target.libraries]]
+name = "MathLib"
+kind = "system-import"
+
+[[target.libraries]]
+name = "CarbonLib"
+kind = "system-import"
+# The CodeWarrior 8 Universal Interfaces extraction used by this example has
+# a concatenated CarbonLib data fork without its cfrg resource-fork sidecar.
+# These entries preserve the four fragment extents and weak-import flags.
+pef_fragments = [
+    { fragment_name = "CarbonLib", offset = 0, length = 80688, weak_import = false },
+    { fragment_name = "CarbonLib", offset = 80688, length = 91808, weak_import = true },
+    { fragment_name = "Apple;Carbon;Multimedia", offset = 172496, length = 74960, weak_import = true },
+    { fragment_name = "Apple;Carbon;Networking", offset = 247456, length = 5464, weak_import = true },
+]
+
+[target.sdk]
+packages = ["macos9-sdk"]
+requires = [
+    "classic.universal-interfaces.headers",
+    "classic.carbon.headers",
+    "classic.carbon.imports",
+    "classic.math.imports",
+]

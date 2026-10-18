@@ -1,0 +1,12 @@
+{
+  "arch": "powerpc",
+  "data-layout": "E-m:a-p:32:32-i64:64-n32",
+  "executables": true,
+  "llvm-target": "powerpc-ibm-aix",
+  "max-atomic-width": 32,
+  "os": "macosclassic",
+  "vendor": "apple",
+  "target-endian": "big",
+  "target-pointer-width": "32",
+  "panic-strategy": "abort"
+}
